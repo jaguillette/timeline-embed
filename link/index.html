@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DH Timeline JS</title>
+    <style media="screen">
+    .container {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    .container p {
+      width: 70%;
+      margin: auto;
+      padding-bottom: 1em;
+    }
+    #submit {
+      display: block;
+      margin: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Paste a link, change the host</h1>
+      <p>You can go through the same timeline creation process on <a href="https://timeline.knightlab.com/index.html">Timeline JS</a>, and then copy links or embed codes here to transform them into links and embed codes for our own Timeline JS hosting, with our own display customizations.</p>
+      <textarea id="input" name="input" rows="8" cols="80"></textarea>
+      <input type="button" id="submit" name="change" value="Change!">
+    </div>
+    <script type="text/javascript">
+      var input = document.getElementById("input");
+      var submit = document.getElementById("submit");
+      var re = /(https:\/\/cdn\.knightlab\.com\/libs\/timeline3\/latest\/embed\/index\.html)/
+      submit.onclick = function() {
+        output_text = input.value.replace(re,'http://dighist.fas.harvard.edu/timeline-embed/')
+        input.value = output_text;
+      };
+    </script>
+  </body>
+</html>
