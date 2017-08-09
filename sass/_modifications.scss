@@ -1,4 +1,14 @@
 .tl-timegroup .tl-timegroup-message {
+  color: #777;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 11pt;
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
   color: #555;
-  text-shadow: #666 0 2px 2px;
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"],
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
+  color: #555;
 }
