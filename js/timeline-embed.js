@@ -26,7 +26,7 @@ var embed_analytics = "UA-537357-20";
 
 /* REPLACE THIS WITH YOUR BASE PATH FOR TIMELINE
 ================================================== */
-var embed_path = "http://dighist.fas.harvard.edu/timeline-embed/";
+var embed_path = "https://jaguillette.github.io/timeline-embed/";
 
 /* LOAD TIMER
 ================================================== */
