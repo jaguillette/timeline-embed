@@ -3639,22 +3639,48 @@
   text-align: left;
 }
 
-/* line 1, ../sass/_modifications.scss */
+/* line 7, ../sass/_modifications.scss */
 .tl-timegroup .tl-timegroup-message {
-  color: #777;
+  color: #444;
   text-shadow: none;
   font-weight: bold;
   font-size: 11pt;
 }
 
-/* line 7, ../sass/_modifications.scss */
+/* line 13, ../sass/_modifications.scss */
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
   color: #555;
 }
 
-/* line 11, ../sass/_modifications.scss */
+/* line 17, ../sass/_modifications.scss */
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"],
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
   color: #555;
+}
+
+/* Background colors */
+/* line 23, ../sass/_modifications.scss */
+.tl-timenav > :nth-child(5) {
+  background-color: #e5be97;
+}
+
+/* line 24, ../sass/_modifications.scss */
+.tl-timenav > :nth-child(6) {
+  background-color: #b2baeb;
+}
+
+/* line 25, ../sass/_modifications.scss */
+.tl-timenav > :nth-child(7) {
+  background-color: #b8d8a7;
+}
+
+/* line 26, ../sass/_modifications.scss */
+.tl-timenav > :nth-child(8) {
+  background-color: #eaadc7;
+}
+
+/* line 27, ../sass/_modifications.scss */
+.tl-timenav > :nth-child(9) {
+  background-color: #81d6dc;
 }

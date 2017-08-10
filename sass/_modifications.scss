@@ -1,5 +1,11 @@
+$bg1: #e5be97;
+$bg2: #b2baeb;
+$bg3: #b8d8a7;
+$bg4: #eaadc7;
+$bg5: #81d6dc;
+
 .tl-timegroup .tl-timegroup-message {
-  color: #777;
+  color: #444;
   text-shadow: none;
   font-weight: bold;
   font-size: 11pt;
@@ -12,3 +18,10 @@
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
   color: #555;
 }
+
+/* Background colors */
+.tl-timenav>:nth-child(5) { background-color: $bg1 }
+.tl-timenav>:nth-child(6) { background-color: $bg2 }
+.tl-timenav>:nth-child(7) { background-color: $bg3 }
+.tl-timenav>:nth-child(8) { background-color: $bg4 }
+.tl-timenav>:nth-child(9) { background-color: $bg5 }
